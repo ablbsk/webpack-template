@@ -1,0 +1,48 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/scripts/index.js",
+  "scripts": {
+    "start": "webpack serve --env development",
+    "build": "webpack --env production",
+    "convert": "node convert-to-webp.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablbsk/webpack-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ablbsk/webpack-template/issues"
+  },
+  "homepage": "https://github.com/ablbsk/webpack-template#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "favicons": "^7.0.2",
+    "favicons-webpack-plugin": "^6.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.1",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^7.0.0",
+    "mini-css-extract-plugin": "^2.7.1",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.2",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
