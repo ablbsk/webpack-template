@@ -1,0 +1,19 @@
+{
+  "plugins": ["import"],
+  "extends": [
+    "airbnb-base",
+    "plugin:import/recommended"
+  ],
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "import/extensions": "off",
+    "no-console": "warn",
+    "no-plusplus": "off"
+  },
+  "ignorePatterns": ["*config.js"]
+}

@@ -2,6 +2,7 @@ const path = require("path")
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin")
+const ESLintPlugin = require("eslint-webpack-plugin")
 const helper = require("./helper.js")
 
 const htmlPages = helper.htmlPages
@@ -66,6 +67,7 @@ module.exports = (options) => {
       port: 8097
     },
     plugins: [
+      new ESLintPlugin({extensions: ["js"]}),
       new MiniCssExtractPlugin({filename: createHash("css")}),
       new FaviconsWebpackPlugin(faviconOptions),
       ...htmlPages
