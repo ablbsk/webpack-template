@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve --env development",
     "build": "webpack --env production",
+    "lint": "eslint src",
     "convert": "node convert-to-webp.mjs"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "eslint": "^8.30.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-webpack-plugin": "^3.2.0",
     "favicons": "^7.0.2",
     "favicons-webpack-plugin": "^6.0.0",
@@ -43,7 +45,7 @@
     "postcss": "^8.4.19",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^7.8.3",
-    "prettier": "^2.8.0",
+    "prettier": "^2.8.1",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",

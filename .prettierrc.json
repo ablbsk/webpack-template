@@ -1,0 +1,21 @@
+{
+  "tabWidth": 2,
+  "printWidth": 120,
+  "semi": false,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": ["*.html", "*.scss"],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["*.js"],
+      "options": {
+        "arrowParens": "always",
+        "singleQuote": false
+      }
+    }
+  ]
+}
