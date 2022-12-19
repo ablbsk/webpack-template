@@ -81,6 +81,11 @@ module.exports = (options) => {
           use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
         },
         {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          use: 'babel-loader',
+        },
+        {
           test: /\.(png|jpg|jpeg|gif|webp|svg)$/i,
           type: isProduction ? 'asset/resource' : 'asset/inline'
         },

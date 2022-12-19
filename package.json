@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ablbsk/webpack-template#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
     "favicons": "^7.0.2",
     "favicons-webpack-plugin": "^6.0.0",
